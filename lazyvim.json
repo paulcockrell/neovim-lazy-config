@@ -1,0 +1,10 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.lang.ruby"
+  ],
+  "news": {
+    "NEWS.md": "2850",
+    "doc/news.txt": "24477"
+  },
+  "version": 3
+}
