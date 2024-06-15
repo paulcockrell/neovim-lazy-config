@@ -242,4 +242,17 @@ return {
       })
     end,
   },
+
+  {
+    "stevarc/config.nvim",
+    opts = {
+      formatter_by_ft = {
+        eruby = { "erb_format" },
+      },
+      format_on_save = {
+        lsp_fallback = true,
+        timeout_ms = 500,
+      },
+    },
+  },
 }

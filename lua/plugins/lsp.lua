@@ -11,6 +11,7 @@ return {
         "typescript-language-server",
         "css-lsp",
         "emmet-language-server",
+        "erb-formatter",
       })
     end,
   },
