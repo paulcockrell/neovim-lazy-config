@@ -2,11 +2,12 @@
   "extras": [
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.markdown",
-    "lazyvim.plugins.extras.lang.ruby"
+    "lazyvim.plugins.extras.lang.ruby",
+    "lazyvim.plugins.extras.lang.sql"
   ],
   "news": {
-    "NEWS.md": "6077",
-    "doc/news.txt": "4832"
+    "NEWS.md": "6520",
+    "doc/news.txt": "5244"
   },
   "version": 6
 }
