@@ -1,0 +1,68 @@
+-- return {
+--   "xero/miasma.nvim",
+--   lazy = false,
+--   priority = 1000,
+--   config = function()
+--     vim.cmd("colorscheme miasma")
+--   end,
+-- }
+--
+-- Utility functions
+--
+-- local function setDark()
+--   vim.api.nvim_set_option_value("background", "dark", {})
+--   vim.cmd("colorscheme miasma")
+-- end
+--
+-- local function setLight()
+--   vim.api.nvim_set_option_value("background", "light", {})
+--   vim.cmd("colorscheme github_light_high_contrast")
+-- end
+--
+-- local function is_background_dark()
+--   local bg = vim.opt.background:get()
+--   local colorscheme = vim.g.colors_name
+--
+--   -- Check if it's explicitly set to 'dark'.
+--   if bg == "dark" then
+--     return true
+--   end
+--
+--   -- Check if it's explicitly set to 'light'.
+--   if bg == "light" then
+--     return false
+--   end
+--
+--   -- If background is not set explicitly, check the color scheme
+--   if colorscheme then
+--     -- List of colorschemes known to be light
+--     local light_colorschemes = {
+--       "github_light_default",
+--       "github_light_high_contrast",
+--       "github_light_tritanopia",
+--     }
+--
+--     for _, scheme in ipairs(light_colorschemes) do
+--       if colorscheme == scheme then
+--         return false
+--       end
+--     end
+--   end
+--
+--   return false
+-- end
+--
+-- -- Configure LazyVim to load dark or light mode scheme
+-- return {
+--   "LazyVim/LazyVim",
+--   opts = {
+--     colorscheme = function()
+--       if is_background_dark() then
+--         setDark()
+--       else
+--         setLight()
+--       end
+--     end,
+--   },
+-- }
+return {}
